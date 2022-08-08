@@ -1,0 +1,224 @@
+{
+	"id": "76b5777b-8be2-ec11-b656-a085fcbcb3c7",
+	"createdAt": "2022-06-02T15:48:45.160Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "4866D098-1033-4D56-B41E-E507F5AC79C3",
+			"method": "POST",
+			"path": "/workflows/06ab721ab360462cb218b249ad805b60/triggers/manual/paths/invoke",
+			"description": "",
+			"parameters": [
+				{
+					"name": "api-version",
+					"description": "",
+					"required": true,
+					"inPath": false,
+					"value": "",
+					"default": "2016-06-01",
+					"example": ""
+				},
+				{
+					"name": "sp",
+					"description": "",
+					"required": true,
+					"inPath": false,
+					"value": "",
+					"default": "/triggers/manual/run",
+					"example": ""
+				},
+				{
+					"name": "sv",
+					"description": "",
+					"required": true,
+					"inPath": false,
+					"value": "",
+					"default": "1.0",
+					"example": ""
+				},
+				{
+					"name": "sig",
+					"description": "",
+					"required": true,
+					"inPath": false,
+					"value": "",
+					"default": "UySJPQN4xEEv8yXjJ9IwSHgWgmp0hEGuRCr68nqvTQ8",
+					"example": ""
+				}
+			],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": [],
+					"content": []
+				}
+			],
+			"enableExample": false,
+			"content": [
+				{
+					"name": "post",
+					"objectType": "object"
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "c920b699-62b4-45a0-d449-123e0eef01f0",
+			"name": "post",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "e84a27fb-36c2-4fca-bd2e-2a57b61a81a5",
+					"name": "title",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "8cfdc810-84e7-4682-8319-67ac0005a39b",
+					"name": "description",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "5d15a11c-079b-4bd1-ea7c-ec0abf45fbdf",
+					"name": "name",
+					"parent": "fcb7f7e2-d01e-438e-c554-d9577d897061",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "e50ad47f-766d-495f-b780-276ae5606745",
+					"name": "profileImage",
+					"parent": "fcb7f7e2-d01e-438e-c554-d9577d897061",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "fcb7f7e2-d01e-438e-c554-d9577d897061",
+					"name": "creator",
+					"parent": "",
+					"description": "",
+					"objectType": "array",
+					"objectName": "creator",
+					"isParent": true,
+					"enableValueHelp": false,
+					"canAddSubNode": true,
+					"enabled": true,
+					"showNameField": true,
+					"children": [
+						{
+							"id": "5d15a11c-079b-4bd1-ea7c-ec0abf45fbdf",
+							"name": "name",
+							"parent": "fcb7f7e2-d01e-438e-c554-d9577d897061",
+							"description": "",
+							"objectType": "string",
+							"isParent": false,
+							"enableValueHelp": false,
+							"canAddSubNode": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						},
+						{
+							"id": "e50ad47f-766d-495f-b780-276ae5606745",
+							"name": "profileImage",
+							"parent": "fcb7f7e2-d01e-438e-c554-d9577d897061",
+							"description": "",
+							"objectType": "string",
+							"isParent": false,
+							"enableValueHelp": false,
+							"canAddSubNode": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						}
+					]
+				},
+				{
+					"id": "46394cf3-747c-4f18-b123-02e5349c38ee",
+					"name": "recipients",
+					"parent": "",
+					"description": "",
+					"objectType": "array",
+					"objectName": "recipients",
+					"isParent": true,
+					"enableValueHelp": false,
+					"canAddSubNode": true,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "da0b9fba-9f36-42ab-bbef-00edd1f038de",
+					"name": "url",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "HACKATHON_TEAMS_PUSH_NOTIFICATION",
+	"endpoint": "https://prod-162.westus.logic.azure.com:443",
+	"ver": "22.8.8.912",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "",
+	"about": "<p><br></p>",
+	"enableProxy": true,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "5be20e21-fa16-ed11-bd6e-a085fcbc6cdc",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}
